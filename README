@@ -1,0 +1,109 @@
+D0m4inSc4n3r
+
+Author: s3r4ph1
+
+Description: Domain, subdomain, and sub-subdomain scanner.
+Installation of Required Tools
+For Ubuntu/Debian:
+
+bash
+
+sudo apt-get update
+sudo apt-get install g++ libcurl4-openssl-dev
+
+For Fedora:
+
+bash
+
+sudo dnf install gcc-c++ libcurl-devel
+
+For macOS (using Homebrew):
+
+bash
+
+brew install curl
+brew install nlohmann-json
+
+Installing nlohmann/json Library on Kali Linux:
+
+bash
+
+sudo apt-get update
+sudo apt-get install nlohmann-json3-dev
+
+Installing asio and boost Libraries:
+
+bash
+
+sudo apt-get install libasio-dev
+sudo apt-get install libboost-all-dev
+
+Compilation
+
+bash
+
+g++ -o D0m4inSc4n3r D0m4inSc4n3r.cpp -lcurl -pthread
+
+Running
+
+bash
+
+./D0m4inSc4n3r <domain>
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+D0m4inSc4n3r
+
+Автор: s3r4ph1
+
+Описание: Поиск доменов, поддоменов и субдоменов.
+Установка необходимых инструментов
+Для Ubuntu/Debian:
+
+bash
+
+sudo apt-get update
+sudo apt-get install g++ libcurl4-openssl-dev
+
+Для Fedora:
+
+bash
+
+sudo dnf install gcc-c++ libcurl-devel
+
+Для macOS (с Homebrew):
+
+bash
+
+brew install curl
+brew install nlohmann-json
+
+Установка библиотеки nlohmann/json на Kali Linux:
+
+bash
+
+sudo apt-get update
+sudo apt-get install nlohmann-json3-dev
+
+Установка библиотеки asio и boost:
+
+bash
+
+sudo apt-get install libasio-dev
+sudo apt-get install libboost-all-dev
+
+Компиляция
+
+bash
+
+g++ -o D0m4inSc4n3r D0m4inSc4n3r.cpp -lcurl -pthread
+
+Запуск
+
+bash
+
+./D0m4inSc4n3r <domain>
